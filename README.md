@@ -19,6 +19,11 @@ npm install
 composer install
 ```
 
+- Build frontend assets
+```bash
+npm run build
+```
+
 - Create .env file
 ```bash
 cp .env.example .env
