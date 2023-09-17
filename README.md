@@ -1,6 +1,6 @@
 <p align="center">
   <img width="80" height="80" src="./public/assets/images/icon.png">
-  <h1 style="text-align:center">Leverage | Company Job Portal</h1>
+  <h1 style="text-align:center">Leverage | Company Job Board</h1>
 </p>
 
 ## Preview
