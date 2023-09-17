@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #ffffff;
+}
+
+.bg-light-blue {
+    background-color: #e5ebf5;
+}
+
+.home-header {
+    background-color: #ffffff;
+    padding: 80px 0 80px 0;
+}
+
+.inner-header {
+    background-color: #ffffff;
+    padding: 40px 0 80px 0;
+}
+
+.text-gradient-home {
+    background: -webkit-linear-gradient(135deg, #5b8dfe 0%, #ff5f5f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-bg {
+    color: #515357;
+    font: normal 400 16px/1.8 Lato;
+    background-color: #f9f9f9;
+}
+
+.department-header {
+    font: normal 700 24px/1.4 Lato;
+    letter-spacing: 1px;
+    line-height: 42px;
+    color: #808080;
+}
+
+.horizontal-line {
+    width: 80px;
+    height: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #e2e2e2;
+}
+
+.small-category-label {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: #808080;
+}
+
+.utility-label {
+    color: #808080;
+    font: normal 700 16px/1.4 Lato;
+    letter-spacing: 1px;
+}
+
+.footer {
+    background-color: #edeef1;
+    color: #7f838a;
+}
+
+ul {
+    list-style: disc;
+}
+
+h1 {
+    font: normal 400 36px/1.4 Lato;
+    color: #515357;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+h2, h5 {
+    font: normal 400 36px/1.4 Lato;
+    color: #515357;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+h3 {
+    font: normal 700 18px/1.4 "Lato";
+    color: #515357;
+}
+
+h4 {
+    font: normal 700 16px/1.4 Lato;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #515357;
+}
+
+h5 {
+    font-size: 24px;
+    margin-right: 115px;
+    overflow: hidden;
+    -webkit-transition: color 150ms;
+    -moz-transition: color 150ms;
+    -o-transition: color 150ms;
+    -ms-transition: color 150ms;
+    transition: color 150ms;
+}
+
+h2, h3, h4 {
+    margin: 17.5px 0;
+}
