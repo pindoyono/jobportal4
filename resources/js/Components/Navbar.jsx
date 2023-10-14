@@ -20,7 +20,7 @@ export default function Navbar({ lang, scroll }) {
                             </Link>
                             <Link href={route("homepage")}>
                                 <span className="ml-2 text-2xl font-bold hover:text-blue-800 text-neutral-800">
-                                    BKK SMK N 2 MALINAU2
+                                    BKK SMK N 2 MALINAU
                                 </span>
                             </Link>
                         </div>
