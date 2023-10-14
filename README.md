@@ -59,4 +59,4 @@ php artisan serve
     - [http://localhost:8000/dashboard](http://localhost:8000/dashboard)
 
 ## Credits
-- [LaraBoard Careers](https://github.com/crivion/laraboard-careers)
+- [LaraBoard Careers](https://github.com/crivion/laraboard-careers)# jobportal4
