@@ -17,11 +17,11 @@ class HomepageController extends Controller
 
         // get jobs that are not expired
         $jobs = Job::notExpired()
-                    ->with('user', 'department', 'location', 'contractType')
-                    ->orderByDesc('id')
-                    ->applyFilters($request)
-                    ->simplePaginate(10)
-                    ->withQueryString();
+            ->with('user', 'department', 'location', 'contractType')
+            ->orderByDesc('id')
+            ->applyFilters($request)
+            ->simplePaginate(10)
+            ->withQueryString();
 
         // all departments, locations, contract types
         $departments = Department::all();

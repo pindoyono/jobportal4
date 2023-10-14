@@ -13,14 +13,14 @@ export default function Navbar({ lang, scroll }) {
                 }
             >
                 <div className="max-w-screen-xl mx-auto md:px-72">
-                    <div className="flex justify-start items-center">
+                    <div className="flex items-center justify-start">
                         <div className="flex items-center py-1">
                             <Link href={route("homepage")}>
                                 <ApplicationLogo />
                             </Link>
                             <Link href={route("homepage")}>
-                                <span className="ml-2 font-bold hover:text-blue-800 text-2xl text-neutral-800">
-                                    Leverage Jobs
+                                <span className="ml-2 text-2xl font-bold hover:text-blue-800 text-neutral-800">
+                                    BKK SMK N 2 MALINAU
                                 </span>
                             </Link>
                         </div>

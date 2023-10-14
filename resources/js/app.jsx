@@ -8,7 +8,7 @@ import { InertiaProgress } from "@inertiajs/progress";
 import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 
 const appName =
-    window.document.getElementsByTagName("title")[0]?.innerText || "Leverage";
+    window.document.getElementsByTagName("title")[0]?.innerText || "BKK";
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
